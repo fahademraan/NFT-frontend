@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>NFTs</title>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+</head>
+
+<body class="bg-body">
+
+    <!-- Navbar start -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-relative overflow-clip">
+            <div class="container">
+                <!-- for desktop -->
+                <div class="d-none d-lg-block">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/nft-logo.png" class="w-75" alt="not found">
+                    </a>
+                </div>
+
+                <!-- for mobile -->
+                <div class="d-block d-lg-none">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/coin-mob.png" class="w-75" alt="not found">
+                    </a>
+                </div>
+                <button class="btn btn-warning text-black d-block d-lg-none sm-nav-btn ms-auto" type="submit">Connect
+                    wallet</button>
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link me-3 nav-text" aria-current="page" href="#">Open Sea</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3 nav-text" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3 nav-text" aria-current="page" href="#">Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-3 nav-text" aria-current="page" href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <ul class="mx-lg-5 mb-2 mb-lg-0 d-flex list-style-none">
+                                <li class="nav-item me-2 mx-lg-2">
+                                    <a class="nav-link" aria-current="page" href="#">
+                                        <img src="assets/images/discorde-logo.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item me-2 mx-lg-2">
+                                    <a class="nav-link" aria-current="page" href="#">
+                                        <img src="assets/images/twitter-logo.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item me-2 mx-lg-2">
+                                    <a class="nav-link" href="#">
+                                        <img src="assets/images/telegram-logo.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item me-2 mx-lg-2">
+                                    <a class="nav-link" aria-current="page" href="#">
+                                        <img src="assets/images/insta-logo.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="bg-golden text-black shadow-golden d-none d-lg-block ms-auto connect-font-adj p-3"
+                    type="submit">Connect
+                    wallet</button>
+            </div>
+            <img src="assets/images/logo-bg-shade.png" class="position-absolute w-auto logo-bg-shade-adj" alt="image">
+            <img src="assets/images/bg-top-shape.png" class="position-absolute w-auto bg-top-shape-adj" alt="image">
+            <img src="assets/images/nft-bg-shade.png" class="position-absolute w-auto nft-bg-shade-adj" alt="image">
+        </nav>
+    </section>
+    <!-- Navbar end -->
+
+    <!-- Swisscheese start -->
+    <section class="overflow-hidden">
+        <div class="my-5 container position-relative">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-none d-lg-block my-auto">
+                    <div>
+                        <div class="text-white text-adj">swisscheese</div>
+                        <br>
+                        <div class="text-adj"><span class="gradient-col">NFT</span><span class="text-white">s</span>
+                        </div>
+                    </div>
+                    <p class="para-adj">NFT aggregators rankings and analysis. Find non-fungible token trading volumes,
+                        number of traders
+                        per NFT Aggregator and more key metri gators rankings and analysis. Find non-fungible NFT
+                        aggregators rankings and analysis.
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-4 col-lg-4 col-xl-4">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: #FFCA06;">-</button>
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: white;">0</button>
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: #FFCA06;">+</button>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-4 col-xl-4">
+                                    <button class="btn btn-warning px-4">Mint</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 my-auto">
+                    <img src="assets/images/NFT.png" class="img-fluid" alt="">
+                </div>
+
+                <!-- for mobile start -->
+                <div class="col-12 d-block d-lg-none my-auto">
+                    <div>
+                        <div class="text-white text-adj">swisscheese</div>
+                        <br>
+                        <div class="text-adj"><span class="gradient-col">NFT</span><span class="text-white">s</span>
+                        </div>
+                    </div>
+                    <p class="para-adj">NFT aggregators rankings and analysis. Find non-fungible token trading volumes,
+                        number of traders
+                        per NFT Aggregator and more key metri gators rankings and analysis. Find non-fungible NFT
+                        aggregators rankings and analysis.
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-8 col-lg-8 col-xl-8">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: #FFCA06;">-</button>
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: white;">0</button>
+                                        <button type="button" class="btn"
+                                            style="background-color: #2A1F42; color: #FFCA06;">+</button>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-4 col-xl-4">
+                                    <button class="btn btn-warning px-4">Mint</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- for mobile end -->
+
+                <img src="assets/images/shadow.png" class="img-fluid position-absolute position-adj" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Swisscheese end -->
+
+    <!-- Collection start -->
+    <section>
+        <div class="my-5 container text-center">
+            <h1 class="collection-adj mb-4">Collection</h1>
+            <button class="bg-golden text-black ms-auto pt-2 pb-2 ps-4 pe-4 opensea-btn-adj" type="submit">Open
+                Sea</button>
+        </div>
+    </section>
+    <!-- Collection end -->
+
+    <!-- slick slider start -->
+    <section>
+        <div class="my-10 position-relative height-adj">
+            <div class="center" style="margin-top: 80px;">
+                <!-- 1 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-1.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-2.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-3.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-4.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-1.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="text-white">
+                    <div class="card border-top-0 card-bg-none card-transition" style="width: 18rem;">
+                        <img src="assets/images/coll-2.png" class="" alt="...">
+                        <div class="card-body text-white bg-purple-2">
+                            <p class="card-text">
+                            <div class="d-flex justify-content-between">
+                                <p>Lady purple #86763</p>
+                                <p class="text-warning">1.2 ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <img src="assets/images/group.png" alt="">
+                                <button class="btn btn-gradient">Start bid</button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slick slider end -->
+
+    <!-- roadmap start -->
+    <section>
+        <div class="mar-top container text-center">
+            <h1 class="roadmap-adj mb-4">Roadmap</h1>
+        </div>
+        <!-- for desktop -->
+        <div class="my-5 container d-none d-lg-block position-relative">
+            <div class="diagonal-div d-flex justify-content-between position-relative">
+                <div class="text-white diag-child-1">
+                    <div class="hidden-1">
+                        <h4 class="roadmap-headings"><img src="assets/images/calendar.png" class="w-auto" alt=""> SEPT
+                            21, 2022</h4>
+                        <p class="roadmap-para">NFT aggregators rankings and analysis. Find non-fungible token trading
+                            volumes, number of
+                            traders
+                            peolumes, number of traders per NFT Aggregator and more key metri gators rankings and
+                            analysis.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-white diag-child-2">
+                    <div class="hidden-2">
+                        <h4 class="roadmap-headings"><img src="assets/images/calendar.png" class="w-auto" alt=""> OCT 7,
+                            2022</h4>
+                        <p class="roadmap-para">NFT aggregators rankings and analysis. Find non-fungible token trading
+                            volumes, number of
+                            traders
+                            peolumes, number of traders per NFT Aggregator and more key metri gators rankings and
+                            analysis.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-white diag-child-3">
+                    <div class="hidden-3">
+                        <h4 class="roadmap-headings"><img src="assets/images/calendar.png" class="w-auto" alt=""> JUNE
+                            21, 2023</h4>
+                        <p class="roadmap-para">NFT aggregators rankings and analysis. Find non-fungible token trading
+                            volumes, number of
+                            traders
+                            peolumes, number of traders per NFT Aggregator and more key metri gators rankings and
+                            analysis.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-white diag-child-4">
+                    <div class="hidden-4">
+                        <h4 class="roadmap-headings"><img src="assets/images/calendar.png" class="w-auto" alt=""> SEPT
+                            30, 2023</h4>
+                        <p class="roadmap-para">NFT aggregators rankings and analysis. Find non-fungible token trading
+                            volumes, number of
+                            traders
+                            peolumes, number of traders per NFT Aggregator and more key metri gators rankings and
+                            analysis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/images/roadmap-Vector.png" class="w-auto position-absolute roadmap-vector-adj" alt="vector image">
+        </div>
+
+        <!-- for mobile -->
+        <div class="my-5 container d-block d-lg-none">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators d-none">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner diagonal-div">
+
+                    <!-- item 1 -->
+                    <div class="carousel-item active">
+                        <div class="text-white diag-child-2-sm">
+                            <div class="hidden-2-sm">
+                                <h4>OCT 7, 2022</h4>
+                                <p class="hidden-2-para">NFT aggregators rankings and analysis. Find non-fungible
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="carousel-item">
+                        <div class="text-white diag-child-3-sm">
+                            <div class="hidden-3-sm">
+                                <h4>JUNE 21, 2023</h4>
+                                <p class="hidden-3-para">NFT aggregators rankings and analysis. Find non-fungible
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="carousel-item">
+                        <div class="text-white diag-child-4-sm">
+                            <div class="hidden-4-sm">
+                                <h4>SEPT 30, 2023</h4>
+                                <p class="hidden-4-para">NFT aggregators rankings and analysis. Find non-fungible
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="carousel-item">
+                        <div class="text-white diag-child-4-sm">
+                            <div class="hidden-4-sm">
+                                <h4>SEPT 21, 2022</h4>
+                                <p class="hidden-4-para">NFT aggregators rankings and analysis. Find non-fungible
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- roadmap end -->
+
+    <!-- FAQs start -->
+    <section>
+        <div class="container my-5">
+            <!-- for desktop start -->
+            <div class="mar-top container text-center d-none d-lg-block">
+                <h1 class="faq-adj mb-4" style="margin-top: 30pc;">FAQs</h1>
+            </div>
+            <!-- for desktop end -->
+
+            <!-- for mobile start -->
+            <div class="mar-top container text-center d-block d-lg-none">
+                <h1 class="faq-adj mb-4" style="margin-top: 15pc;">FAQs</h1>
+            </div>
+            <!-- for mobile end -->
+
+            <div class="accordion faqs" id="accordionExample">
+                <!-- 1 -->
+                <div class="accordion-item border-0 bg-transparent">
+                    <h2 class="accordion-header mb-3" id="headingOne">
+                        <button class="accordion-button bg-transparent border-b faq-headings mb-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            CAN I SWITCH SUBCRIBTIONS ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body faq-para">
+                            You are entitled to one FREE 7 day trial. You can cancel anytime within your trial period
+                            with no obligations. If you go past 7 days without cancelling, your  account will be
+                            automatically billed. All sales are final. Your trial is on a general calendar
+                            schedule.Please note: If you choose to upgrade to the Pro
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="accordion-item border-0 bg-transparent">
+                    <h2 class="accordion-header mb-3" id="headingTwo">
+                        <button class="accordion-button bg-transparent border-b faq-headings mb-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                            aria-controls="collapseTwo">
+                            HOW DOES THE 7 DAY TRIAL WORK ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body faq-para">
+                            You are entitled to one FREE 7 day trial. You can cancel anytime within your trial period
+                            with no obligations. If you go past 7 days without cancelling, your  account will be
+                            automatically billed. All sales are final. Your trial is on a general calendar
+                            schedule.Please note: If you choose to upgrade to the Pro
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="accordion-item border-0 bg-transparent">
+                    <h2 class="accordion-header mb-3" id="headingThree">
+                        <button class="accordion-button bg-transparent border-b faq-headings mb-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                            aria-controls="collapseThree">
+                            WHAT IS REFUND POLICY ?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body faq-para">
+                            You are entitled to one FREE 7 day trial. You can cancel anytime within your trial period
+                            with no obligations. If you go past 7 days without cancelling, your  account will be
+                            automatically billed. All sales are final. Your trial is on a general calendar
+                            schedule.Please note: If you choose to upgrade to the Pro
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs end -->
+
+    <!-- footer start -->
+    <section>
+        <!-- for desktop -->
+        <div class="d-none d-lg-block text-white">
+            <footer class="wrapper d-flex justify-content-between position-relative">
+                <div>
+                    <img src="assets/images/footer-logo.png" class="w-adj" alt="not found">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="mx-4 cursor-pointer">
+                        <img src="assets/images/discorde-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-4 cursor-pointer">
+                        <img src="assets/images/twitter-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-4 cursor-pointer">
+                        <img src="assets/images/telegram-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-4 cursor-pointer">
+                        <img src="assets/images/insta-logo.png" alt="">
+                    </a>
+                </div>
+                <div>COPYRIGHT &copy; 2023</div>
+                <img src="assets/images/footer-bg-shade.png" class="w-25 position-absolute footer-bg-shade-adj" alt="image">
+            </footer>
+        </div>
+
+        <!-- for mobile -->
+        <div class="d-block d-lg-none text-white">
+            <footer class="wrapper text-center">
+                <div>
+                    <img src="assets/images/footer-logo.png" class="w-adj" alt="not found">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="mx-2 cursor-pointer">
+                        <img src="assets/images/discorde-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-2 cursor-pointer">
+                        <img src="assets/images/twitter-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-2 cursor-pointer">
+                        <img src="assets/images/telegram-logo.png" alt="">
+                    </a>
+                    <a href="#" class="mx-2 cursor-pointer">
+                        <img src="assets/images/insta-logo.png" alt="">
+                    </a>
+                </div>
+                <div>COPYRIGHT &copy; 2023</div>
+            </footer>
+        </div>
+    </section>
+    <!-- footer end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+    <script>
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            arrows: false,
+            slidesToShow: 5,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        $('.diag-div-center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            arrows: false,
+            slidesToShow: 4,
+            responsive: [
+                {
+                    breakpoint: 400,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $('.faq-btn').click(function () {
+            $(this).remove('faq-btn');
+            $(this).addClass('.active_');
+        })
+    </script>
+</body>
+
+</html>

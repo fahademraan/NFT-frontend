@@ -1,0 +1,706 @@
+@font-face {
+    font-family: Azonix;
+    src: url('../images/azonix/Azonix.otf');
+}
+
+
+.bg-golden {
+    border-radius: 12px;
+    background-color: rgb(234, 177, 48);
+    border: none;
+    padding: 8px;
+}
+
+.bg-body {
+    background-image: url('../images/bg-body.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shadow-golden {
+    box-shadow: 2px 2px 15px rgb(234, 177, 48);
+}
+
+.bg-light-purple {
+    background-color: #2A1F42;
+    align-items: center !important;
+    border-radius: 17px;
+}
+
+.text-adj {
+    font-size: 72px;
+    font-family: Azonix;
+    letter-spacing: -2%;
+    line-height: 100px;
+}
+
+.overflow-clip {
+    overflow-x: clip;
+}
+
+.logo-bg-shade-adj {
+    left: -5%;
+    z-index: -1;
+}
+
+.nft-bg-shade-adj {
+    left: 67%;
+    top: -82px;
+    z-index: -1;
+}
+
+.bg-top-shape-adj {
+    top: 7px;
+    left: 6px;
+    z-index: -1;
+}
+
+.roadmap-headings {
+    color: #E2EBFB;
+    font-family: Azonix;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roadmap-para {
+    color: #9690AD;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.opensea-btn-adj {
+    color: #312B37;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.gradient-col {
+    background: linear-gradient(91deg, #FFD403 -4.44%, #8250FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para-adj {
+    color: #9690AD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.nav-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.connect-font-adj {
+    color: #312B37;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.position-adj {
+    top: -43%;
+    z-index: -1;
+    left: 18%;
+}
+
+.collection-adj {
+    color: #E2EBFB;
+    font-family: Azonix;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: -1.2px;
+    position: relative;
+}
+
+.collection-adj::before {
+    content: '';
+    background-image: url('../images/Collection.png');
+    position: absolute;
+    height: 70px;
+    width: 52%;
+    top: -39%;
+    left: 10%;
+}
+
+
+.bg-purple-2 {
+    background-color: #2A1F42;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card-bg-none {
+    background-color: transparent !important;
+}
+
+.btn-outline-white {
+    border: 2px solid white !important;
+    border-radius: 15px !important;
+    fill: linear-gradient(137deg, rgba(226, 235, 251, 0.40) 21.24%, rgba(226, 235, 251, 0.12) 75.79%) !important;
+}
+
+.slick-next::before {
+    content: '→';
+    position: absolute;
+    right: 860px;
+    top: 248px;
+}
+
+.slick-prev::before {
+    content: '←';
+    position: absolute;
+    left: 860px;
+    top: 248px;
+}
+
+.mar-top {
+    margin-top: 15rem;
+}
+
+.roadmap-adj {
+    color: #E2EBFB;
+    font-family: Azonix;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: -1.2px;
+    position: relative;
+}
+
+.roadmap-adj::before {
+    content: '';
+    background-image: url('../images/roadmap.png');
+    height: 70px;
+    position: absolute;
+    width: 60%;
+    top: -39%;
+    left: 2%;
+}
+
+.accordion-header button:focus {
+    box-shadow: none !important;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.height-adj {
+    height: 500px;
+    overflow: hidden;
+}
+
+.w-adj {
+    width: 20%;
+}
+
+.slick-list {
+    overflow: visible !important;
+}
+
+.faq-adj {
+    color: #E2EBFB;
+    font-family: Azonix;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: -1.2px;
+    position: relative;
+}
+
+
+.faq-para {
+    color: #9690AD;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.faq-adj::before {
+    content: '';
+    background-image: url('../images/FAQs.png');
+    height: 70px;
+    position: absolute;
+    width: 19%;
+    top: -39%;
+    left: 38%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.diagonal-div {
+    font-size: 12px;
+}
+
+.diagonal-div::after {
+    content: '';
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.btn-gradient {
+    background: linear-gradient(137deg, rgba(226, 235, 251, 0.40) 21.24%, rgba(226, 235, 251, 0.12) 75.79%) !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 12px !important;
+}
+
+.btn-gradient:hover {
+    color: #FFCA06 !important;
+    background: linear-gradient(121deg, rgba(246, 191, 26, 0.23) 7.47%, rgba(225, 167, 65, 0.00) 68.87%) !important;
+    border: 1px solid #FFCA06 !important;
+}
+
+/* -------------1-------------- */
+/* .diag-child-1 {
+    overflow: hidden;
+    height: 86px;
+    width: 250px;
+    transition: .5s;
+    left: 12px;
+}
+
+.diag-child-1:hover {
+    height: 200px;
+    width: 20%;
+    background-color: #31274D;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.diag-child-1:hover .diag-child-1::after {
+    z-index: -1;
+    display: none;
+}
+
+.diag-child-1::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    clip-path: circle();
+    background-color: white;
+    top: 100px;
+    left: -15px;
+} */
+
+.diag-child-1 {
+    height: 86px;
+    width: 250px;
+    position: absolute;
+    left: 10px;
+    transition: .5s;
+}
+
+.diag-child-1:hover {
+    height: 200px;
+    background-color: #31274D;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.diag-child-1::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    clip-path: circle();
+    background-color: white;
+    top: 100px;
+    left: -10px;
+}
+
+.hidden-1 {
+    overflow: hidden;
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+}
+
+.hidden-1:hover {
+    height: 200px;
+}
+
+/* ----------2-------------- */
+
+.diag-child-2 {
+    height: 86px;
+    width: 250px;
+    position: absolute;
+    top: 130px;
+    left: 25%;
+    transition: .5s;
+}
+
+
+.diag-child-2:hover {
+    height: 200px;
+    overflow: visible;
+    background-color: #31274D;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.hidden-2 {
+    overflow: hidden;
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+}
+
+.hidden-2:hover {
+    height: 200px;
+}
+
+.diag-child-2::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    clip-path: circle();
+    background-color: white;
+    top: -27px;
+    left: 1px;
+}
+
+/* ------------3---------------- */
+
+.diag-child-3 {
+    height: 86px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transition: .5s;
+}
+
+.diag-child-3:hover {
+    height: 200px;
+    background-color: #31274D;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.diag-child-3::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    clip-path: circle();
+    background-color: white;
+    top: 100px;
+    left: -10px;
+}
+
+.hidden-3 {
+    overflow: hidden;
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+}
+
+.hidden-3:hover {
+    height: 200px;
+}
+
+/* -----------4--------------- */
+
+.diag-child-4 {
+    height: 86px;
+    width: 250px;
+    position: absolute;
+    top: 130px;
+    left: 75%;
+    transition: .5s;
+}
+
+.diag-child-4:hover {
+    height: 200px;
+    overflow: visible;
+    background-color: #31274D;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.diag-child-4::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    clip-path: circle();
+    background-color: white;
+    top: -25px;
+    left: 1px;
+}
+
+.hidden-4 {
+    overflow: hidden;
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+}
+
+.hidden-4:hover {
+    height: 200px;
+}
+
+.carousel-indicators {
+    top: 161px;
+}
+
+.accordion-button::after {
+    background-image: url('../images/plus.png') !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-b {
+    border-bottom: 1px solid #a6a7a8 !important;
+}
+
+.faq-headings {
+    color: #a6a7a8 !important;
+    font-family: Azonix;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roadmap-vector-adj {
+    top: -40px;
+    left: 84%;
+    z-index: -1;
+}
+
+.footer-bg-shade-adj {
+    left: -6%;
+    top: -269px;
+    z-index: -1;
+}
+
+.my-10 {
+    margin-top: 100px;
+}
+
+.card-transition {
+    transition: .5s;
+}
+
+.card-transition:hover {
+    transform: translateY(-15%);
+}
+
+@media (max-width: 500px) {
+    .collection-adj {
+        font-size: 35px;
+    }
+
+    .text-adj {
+        font-size: 35px;
+        line-height: 25px;
+    }
+
+    .para-adj {
+        margin-top: 25px;
+    }
+
+    .roadmap-adj::before {
+        background-image: url('../images/roadmap-mob.png');
+        height: 44px;
+        width: 100%;
+        top: -17px;
+        left: -12px;
+    }
+
+    .collection-adj::before {
+        background-image: url('../images/Collection-mob.png');
+        height: 43px;
+        width: 349px;
+        left: -12px;
+        top: -11px;
+    }
+
+    .sm-nav-btn {
+        width: 35% !important;
+        font-size: 9px !important;
+    }
+
+    .faqs {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+    }
+
+    .wrapper {
+        line-height: 70px;
+        width: 55%;
+    }
+
+    .faq-adj::before {
+        width: 70%;
+        left: 8%;
+    }
+
+    .diagonal-div {
+        height: 174px !important;
+    }
+
+    .diag-child-1 {
+        line-height: 40px;
+    }
+
+    .diagonal-div::after {
+        content: '';
+        position: absolute;
+        top: 106px;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+    }
+
+    .diag-child-2-sm {
+        height: 86px;
+        width: 250px;
+        position: absolute;
+        top: 130px;
+        left: 25%;
+        left: 20%;
+        top: 50px;
+    }
+
+    .diag-child-2-sm::before {
+        content: '';
+        position: absolute;
+        clip-path: circle();
+        background-color: white;
+        top: 50px;
+        height: 10px;
+        width: 10px;
+        left: 10px;
+    }
+
+    .hidden-2-sm {
+        overflow: hidden;
+        height: 86px;
+        width: 250px;
+        padding: 10px;
+    }
+
+    .hidden-2-para {
+        position: absolute;
+        top: 70px;
+        font-weight: 200;
+    }
+
+    .diag-child-3-sm {
+        height: 86px;
+        width: 250px;
+        position: absolute;
+        top: 130px;
+        left: 25%;
+        left: 20%;
+        top: 50px;
+    }
+
+    .diag-child-3-sm::before {
+        content: '';
+        position: absolute;
+        clip-path: circle();
+        background-color: white;
+        top: 50px;
+        height: 10px;
+        width: 10px;
+        left: 10px;
+    }
+
+    .hidden-3-sm {
+        overflow: hidden;
+        height: 86px;
+        width: 250px;
+        padding: 10px;
+    }
+
+    .hidden-3-para {
+        position: absolute;
+        top: 70px;
+        font-weight: 200;
+    }
+
+    .diag-child-4-sm {
+        height: 86px;
+        width: 250px;
+        position: absolute;
+        top: 130px;
+        left: 25%;
+        left: 20%;
+        top: 50px;
+    }
+
+    .diag-child-4-sm::before {
+        content: '';
+        position: absolute;
+        clip-path: circle();
+        background-color: white;
+        top: 50px;
+        height: 10px;
+        width: 10px;
+        left: 10px;
+    }
+
+    .hidden-4-sm {
+        overflow: hidden;
+        height: 86px;
+        width: 250px;
+        padding: 10px;
+    }
+
+    .hidden-4-para {
+        position: absolute;
+        top: 70px;
+        font-weight: 200;
+    }
+
+    .carousel-indicators {
+        top: 220px;
+    }
+
+    .accordion-button::after {
+        background-image: url('../images/plus.png') !important;
+    }
+}
